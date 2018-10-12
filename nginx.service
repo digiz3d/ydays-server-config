@@ -8,7 +8,6 @@ ExecStartPre=/usr/local/nginx/sbin/nginx -t
 ExecStart=/usr/local/nginx/sbin/nginx
 ExecReload=/usr/local/nginx/sbin/nginx -s reload
 ExecStop=/bin/kill -s QUIT $MAINPID
-PrivateTmp=true
 
 [Install]
 WantedBy=multi-user.target
