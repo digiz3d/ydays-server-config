@@ -24,4 +24,4 @@ make install
 
 yes | cp ~/ydays-server-config/nginx.conf /usr/local/nginx/conf/nginx.conf
 yes | cp ~/ydays-server-config/nginx.service /lib/systemd/system/nginx.service
-systemctl start nginx
+systemctl enable nginx
