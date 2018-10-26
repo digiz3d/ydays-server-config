@@ -9,7 +9,7 @@ fi
 
 add-apt-repository ppa:ondrej/php
 
-apt update && apt install -y git apache2 mariadb-server mariadb-client software-properties-common build-essential libpcre3-dev libssl-dev zlib1g-dev php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-apcu php7.1-smbclient php7.1-ldap php7.1-redis php7.1-gd php7.1-xml php7.1-intl php7.1-json php7.1-imagick php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-ldap php7.1-zip php7.1-curl
+apt update && apt install -y git apache2 mariadb-server mariadb-client software-properties-common build-essential libpcre3-dev libssl-dev zlib1g-dev php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-apcu php7.1-smbclient php7.1-ldap php7.1-redis php7.1-gd php7.1-xml php7.1-intl php7.1-json php7.1-imagick php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-ldap php7.1-zip php7.1-curl ffmpeg
 
 sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
 
