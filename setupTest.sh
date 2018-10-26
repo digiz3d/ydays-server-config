@@ -15,7 +15,7 @@ cd ~/
 git clone https://github.com/digiz3d/ydays-server-config.git
 
 # Copie le fichier ini du dossier github 
-cp /ydays-server-config/php.ini /etc/php/7.1/apache2/php.ini
+yes | cp /ydays-server-config/php.ini /etc/php/7.1/apache2/php.ini
 
 cd /var/www/ && wget https://download.owncloud.org/community/owncloud-10.0.3.zip
 
@@ -26,7 +26,7 @@ chown -R www-data:www-data /var/www/owncloud/
 chmod -R 755 /var/www/owncloud/
 
 # Copie du fichier owncloud.conf du dossier github
-cp /ydays-server-config/owncloud.conf /etc/apache2/sites-available/owncloud.conf
+yes | cp /ydays-server-config/owncloud.conf /etc/apache2/sites-available/owncloud.conf
 
 a2ensite owncloud.conf
 
