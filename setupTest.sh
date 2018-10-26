@@ -1,3 +1,5 @@
+# Configuration Ubuntu
+
 apt update && apt install -y git apache2 mariadb-server mariadb-client software-properties-common
 
 sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
