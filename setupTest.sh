@@ -40,6 +40,8 @@ a2enmod dir
 
 a2enmod mime
 
+sed -i "2i127.0.0.1\tydays-besafe.com" /etc/hosts
+
 systemctl restart apache2.service
 
-
+reboot
