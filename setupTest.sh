@@ -1,4 +1,5 @@
-# Configuration Ubuntu
+#!/bin/bash
+# Configuration Ubuntu:18.04 Project be safe
 
 apt update && apt install -y git apache2 mariadb-server mariadb-client software-properties-common
 
