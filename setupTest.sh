@@ -12,8 +12,6 @@ apt update && apt install -y php7.1 libapache2-mod-php7.1 php7.1-common php7.1-m
 
 cd ~/
 
-git clone https://github.com/digiz3d/ydays-server-config.git
-
 # Copie le fichier ini du dossier github 
 yes | cp ~/ydays-server-config/php.ini /etc/php/7.1/apache2/php.ini
 
